@@ -1,2 +1,2 @@
 # Image-Post-Processing
-Select images to be loaded into the GPU and write GPU code in the browser to create the output image in real time.
+Upload up to 16 images at a time into a fragment shader you can edit in real time. Get pixel location and color by hovering cursor over image.
