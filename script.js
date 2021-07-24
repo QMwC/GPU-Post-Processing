@@ -48,7 +48,8 @@ vec4 grayscale(vec4 col) {
 
 void main() {
   vec2 dim = vec2(w, h);
-  gl_FragColor = texture2D(img0, texPos);
+  vec4 col = texture2D(img0, texPos);
+  gl_FragColor = grayscale(col);
 }`;
 
   let textures = [];
